@@ -1,0 +1,15 @@
+
+<main class="main">
+  <div class="content">
+    <h1>Dados da Biblioteca</h1>
+    <ul>@for (dado of dados; track dado) {
+          <li>{{ dado }}</li>
+        } @empty {
+        <li>lista vazia</li>
+        }
+    </ul>
+  </div>
+</main>
+
+
+<router-outlet />
