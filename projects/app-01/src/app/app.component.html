@@ -1,13 +1,16 @@
 
 <main class="main">
   <div class="content">
-    <h1>Dados da Biblioteca</h1>
+    <h1>Aplicação 01</h1>
+    <h2>Dados da Biblioteca</h2>
     <ul>@for (dado of dados; track dado) {
           <li>{{ dado }}</li>
         } @empty {
         <li>lista vazia</li>
         }
     </ul>
+    <h2>Componente da Biblioteca</h2>
+    <lib-meu-componente></lib-meu-componente>
   </div>
 </main>
 
